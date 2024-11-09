@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <title>log in</title>
+  </head>
+  <body>
+    <div id="back">
+      <h1>
+        <a href="../html/index.html"><img src="../icon/back.png" alt="" /></a>
+      </h1>
+    </div>
+    <div id="login">
+      <h1>log in</h1>
+      <form action="">
+        <div>
+          <label for="username">username</label>
+          <input id="username" type="text" placeholder=" type your username" />
+        </div>
+        <div>
+          <label for="password">password</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="type your password"
+          />
+          <div class="show" >
+
+           <label for="checkbox">
+
+             <strong>Show Password</strong>
+           </label> 
+            <input type="checkbox" onclick="Toggle()" />
+          </div>
+        </div>
+        <div id="submit">
+          <button type="submit">login</button>
+        </div>
+      </form>
+      <div id="using">
+        <p>or login using</p>
+        <div id="a">
+          <a href=""
+            ><img
+              class="icon"
+              src="../icon/facebook.png"
+              alt="login using facebook"
+          /></a>
+          <a href=""
+            ><img class="icon" src="../icon/x.png" alt="login using x"
+          /></a>
+          <a href=""
+            ><img
+              class="icon"
+              src="../icon/instagram.png"
+              alt="login using instagram"
+          /></a>
+        </div>
+      </div>
+      <div id="button">
+        <p>or sign up</p>
+        <button><a href="">sign up</a></button>
+      </div>
+    </div>
+    <script src="../js/login.js"></script>
+  </body>
+</html>
